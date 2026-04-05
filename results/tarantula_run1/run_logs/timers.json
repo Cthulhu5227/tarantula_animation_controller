@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1775367340",
+        "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\jaspu\\Documents\\ml-agents\\Animation_Controller\\venv\\Scripts\\mlagents-learn config\\CrawlerAgent.yaml --run-id=tarantula_run1",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.5.1+cu121",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1775367390"
+    },
+    "total": 50.17416570000023,
+    "count": 1,
+    "self": 0.014573100000234263,
+    "children": {
+        "run_training.setup": {
+            "total": 0.2634562000002916,
+            "count": 1,
+            "self": 0.2634562000002916
+        },
+        "TrainerController.start_learning": {
+            "total": 49.896136399999705,
+            "count": 1,
+            "self": 0.00022949999947741162,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 49.89589200000046,
+                    "count": 1,
+                    "self": 49.89589200000046
+                },
+                "TrainerController._save_models": {
+                    "total": 1.4899999769113492e-05,
+                    "count": 1,
+                    "self": 1.4899999769113492e-05
+                }
+            }
+        }
+    }
+}

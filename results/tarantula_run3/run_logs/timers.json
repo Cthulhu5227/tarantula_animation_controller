@@ -1,0 +1,75 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1775368126",
+        "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\jaspu\\Documents\\ml-agents\\Animation_Controller\\venv\\Scripts\\mlagents-learn config\\CrawlerAgent.yaml --run-id=tarantula_run3",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.5.1+cu121",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1775368139"
+    },
+    "total": 12.61037909999959,
+    "count": 1,
+    "self": 0.08575149999978748,
+    "children": {
+        "run_training.setup": {
+            "total": 0.1078378000001976,
+            "count": 1,
+            "self": 0.1078378000001976
+        },
+        "TrainerController.start_learning": {
+            "total": 12.416789799999606,
+            "count": 1,
+            "self": 0.00014629999986937037,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 12.396761800000604,
+                    "count": 1,
+                    "self": 12.396761800000604
+                },
+                "TrainerController.advance": {
+                    "total": 0.0005977999999231542,
+                    "count": 1,
+                    "self": 5.599999894911889e-06,
+                    "children": {
+                        "env_step": {
+                            "total": 0.0005922000000282424,
+                            "count": 1,
+                            "self": 9.74000004134723e-05,
+                            "children": {
+                                "SubprocessEnvManager._take_step": {
+                                    "total": 0.0004947999996147701,
+                                    "count": 1,
+                                    "self": 1.9699999938893598e-05,
+                                    "children": {
+                                        "TorchPolicy.evaluate": {
+                                            "total": 0.00047509999967587646,
+                                            "count": 1,
+                                            "self": 0.00047509999967587646
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "TrainerController._save_models": {
+                    "total": 0.019283899999209098,
+                    "count": 1,
+                    "self": 1.4299999747890979e-05,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.019269599999461207,
+                            "count": 1,
+                            "self": 0.019269599999461207
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

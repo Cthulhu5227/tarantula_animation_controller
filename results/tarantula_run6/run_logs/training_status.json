@@ -1,0 +1,65 @@
+{
+    "Crawler": {
+        "checkpoints": [
+            {
+                "steps": 1499611,
+                "file_path": "results\\tarantula_run6\\Crawler\\Crawler-1499611.onnx",
+                "reward": 638.0713849748884,
+                "creation_time": 1775373094.5046148,
+                "auxillary_file_paths": [
+                    "results\\tarantula_run6\\Crawler\\Crawler-1499611.pt"
+                ]
+            },
+            {
+                "steps": 1999545,
+                "file_path": "results\\tarantula_run6\\Crawler\\Crawler-1999545.onnx",
+                "reward": 778.6174620389938,
+                "creation_time": 1775374477.8913386,
+                "auxillary_file_paths": [
+                    "results\\tarantula_run6\\Crawler\\Crawler-1999545.pt"
+                ]
+            },
+            {
+                "steps": 2499973,
+                "file_path": "results\\tarantula_run6\\Crawler\\Crawler-2499973.onnx",
+                "reward": 2089.140625,
+                "creation_time": 1775375895.1285517,
+                "auxillary_file_paths": [
+                    "results\\tarantula_run6\\Crawler\\Crawler-2499973.pt"
+                ]
+            },
+            {
+                "steps": 2999138,
+                "file_path": "results\\tarantula_run6\\Crawler\\Crawler-2999138.onnx",
+                "reward": 1032.1563143200344,
+                "creation_time": 1775377301.2711031,
+                "auxillary_file_paths": [
+                    "results\\tarantula_run6\\Crawler\\Crawler-2999138.pt"
+                ]
+            },
+            {
+                "steps": 3377445,
+                "file_path": "results\\tarantula_run6\\Crawler\\Crawler-3377445.onnx",
+                "reward": 1260.301289876302,
+                "creation_time": 1775378270.9383104,
+                "auxillary_file_paths": [
+                    "results\\tarantula_run6\\Crawler\\Crawler-3377445.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3377445,
+            "file_path": "results\\tarantula_run6\\Crawler.onnx",
+            "reward": 1260.301289876302,
+            "creation_time": 1775378270.9383104,
+            "auxillary_file_paths": [
+                "results\\tarantula_run6\\Crawler\\Crawler-3377445.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.5.1+cu121"
+    }
+}
